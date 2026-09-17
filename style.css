@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial,sans-serif;
+    background: #f8f8f8;
+    color: #333;
+}
+header{
+    background: #4b2e2e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+header h1{
+    font-size: 32px;
+}
+nav a{
+    color: white;
+    text-decoration:none;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+nav a:hover{
+color: #ffd700;
+}
+.hero{
+    text-align: center;
+    padding: 80px 20px;
+    background: #f5e6d3;
+}
+.hero img{
+    width: 350px;
+    max-width: 90px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.hero h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.hero p{
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+button{
+    background: #6f4e37;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+}
+button:hover{
+    background: #3d2518;
+}
+.about{
+    text-align: center;
+    padding: 60px 30px;
+}
+.about h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.about p{
+line-height: 1.8;
+}
+.menu{
+    text-align: center;
+    padding: 60px 30px;
+}
+.menu h2{
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+article{
+    display: inline-block;
+    background: wheat;
+    width: 260px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+article:hover{
+    transition: translateY(-10px);
+}
+article img{
+   width: 100px;
+   height: 180px;
+   object-fit: cover;
+   border-radius: 10px;
+}
+article h3{
+    margin: 15px 0;
+}
+.gallery{
+    text-align: center;
+    padding: 60px 30px;
+}
+.gallery h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.gallery img{
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.contact{
+    text-align: center;
+    padding: 60px 30px;
+}
+form{
+    max-width: 500px;
+    margin: auto;
+}
+label{
+    display: block;
+    margin-top: 15px;
+}
+input,
+textarea{
+
+    width: 100px;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+textarea{
+    height: 120px;
+}
+footer{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
